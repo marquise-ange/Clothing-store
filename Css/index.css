@@ -319,3 +319,132 @@ body {
 .product-card-btn:hover {
     background: #333333;
 }
+
+.subscribe {
+    background: #111;
+    color: white;
+    padding: 35px 30px;
+    
+}
+
+.subscribe h1 {
+    font-size: 33px;
+    font-weight: 90;
+}
+
+.subscribe input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: none;
+}
+
+.subscribe button {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background: grey;
+}
+
+#footer {
+    background-color: #f1f1f1;
+    padding: 64px 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.footer-section {
+    font-size: 14px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    margin: 12px 0;
+}
+
+
+.footer-section input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.footer-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-section button:hover {
+    background-color: #333;
+}
+
+.footer-section a {
+    display: block;
+    color: #000;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+
+.store i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.social {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.social i {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.social i:hover {
+    opacity: 0.6;
+}
+
+.copyright {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 24px;
+    font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 700px) {
+
+    #footer {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+
+    .store {
+        text-align: center;
+    }
+}
